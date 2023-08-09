@@ -1,0 +1,9 @@
+DROP DATABASE IF EXISTS db_users;
+CREATE DATABASE db_users;
+USE db_users;
+
+CREATE TABLE users(
+	user_id INT PRIMARY KEY AUTO_INCREMENT,
+	email VARCHAR(250),
+	pass_word VARCHAR(250)
+)
